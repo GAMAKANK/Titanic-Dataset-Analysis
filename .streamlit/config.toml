@@ -1,0 +1,10 @@
+[theme]
+base="light"
+backgroundColor="#F5F5F5"
+secondaryBackgroundColor="lavender"
+codeBackgroundColor="powderBlue"
+
+[theme.sidebar]
+backgroundColor="#8DBCC7"
+secondaryBackgroundColor="white"
+textColor="black"
