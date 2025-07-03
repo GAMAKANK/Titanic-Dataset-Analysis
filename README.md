@@ -8,3 +8,5 @@ This is a small machine learning project that predicts whether a passenger aboar
   <li>scikit-learn</li>
   <li>seaborn</li>
 </ul></p>
+
+Use Model - [Tital Survival Analysis](https://gamakank-titanic-dataset-analysis-app-ieevhl.streamlit.app/)
