@@ -7,8 +7,11 @@ import os
 st.set_page_config(page_title="Titanic Data Analysis", layout="wide", page_icon="⛴️")
 
 # Load model
-with open("final_model.pkl", "rb") as f:
-    model = pickle.load(f)
+try:
+    with open("final_model.pkl", "rb") as f:
+        model = pickle.load(f)
+except Exception as e:
+    st.error(f"Error loading model: {e}")
 
 #Sidebar Inputs
 st.sidebar.title("Titanic Survival Analysis")
