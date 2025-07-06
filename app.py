@@ -13,6 +13,7 @@ try:
 except Exception as e:
     st.error(f"Error loading model: {e}")
 
+
 #Sidebar Inputs
 st.sidebar.title("Titanic Survival Analysis")
 passengerId = st.sidebar.number_input("Enter Passenger ID",min_value=0,max_value=1000,value=0)
